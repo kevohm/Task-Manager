@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: #242424;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline:none;
+}
+
+html,body {
+  display: flex;
+  place-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+#root{
+  display: flex;
+  align-items: center;
+  justify-items: start;
+  width: 100%;
+  height: 100%;
+}
